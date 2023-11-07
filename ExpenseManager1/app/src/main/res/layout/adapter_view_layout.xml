@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/textview_name"
+        android:layout_width="228dp"
+        android:layout_height="94dp"
+        android:layout_weight="66.6"
+        android:gravity="center"
+        android:text="Name"
+        android:textAlignment="center"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="33.3">
+
+        <TextView
+            android:id="@+id/textview_month"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Month">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textview_expense"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="Expense">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textview_comment"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:gravity="center"
+            android:text="Comment">
+
+        </TextView>
+    </LinearLayout>
+</LinearLayout>
